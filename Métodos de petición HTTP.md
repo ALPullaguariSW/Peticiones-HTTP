@@ -64,27 +64,50 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 - Dar click en el botón _SEND_
   ![Alt text](Post.png)
   Como se puede ver en la siguiente imagen.
-- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método POST
+- Se nos muestra el elemento creado dentro de nuestra API gracias al metodo _POST_
   ![Alt text](StatusPost.png)
 
-_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _201:_ _La solicitud se cumplió y resultó en la creación de un nuevo recurso._
 
 #### Método PUT
 
-- Seleccionar el método _PUT_ de nuestro panel y dar click en el botón _SEND_
+- Seleccionar el método _POST_ de nuestro panel y especificar en nuestro link el recurso que deseamos modificar por completo.
+- Seleccionar la opción de Body, la opción raw y escoger el formato JSON, procedemos a escribir nuestro elemento en JSON
+
+---
+
+`{
+"userId":1,
+"id":123,
+"title":"Método PUT",
+"body":"Hello World Update"
+}`
+
+- Dar click en el botón _SEND_
   ![Alt text](Put.png)
   Como se puede ver en la siguiente imagen.
-- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PUT
+- Se nos muestra el elemento modificado en nuestra API gracias al metodo _POST_
   ![Alt text](StatusPut.png)
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
 
 #### Método PATCH
 
-- Seleccionar el método _PATCH_ de nuestro panel y dar click en el botón _SEND_
+- Seleccionar el método _PATCH_ de nuestro panel y especificar en nuestro link el recurso que deseamos modificar parcialmente.
+- Seleccionar la opción de Body, la opción raw y escoger el formato JSON, procedemos a escribir nuestro elemento en JSON
+
+---
+
+`{
+
+"title":"Esta es una actualización parcial",
+
+}`
+
+- Dar click en el botón _SEND_
   ![Alt text](Patch.png)
   Como se puede ver en la siguiente imagen.
-- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PATCH
+- Se nos muestra el elemento modificado parcialmente dentro de nuestra API gracias al metodo _PATCH_
   ![Alt text](StatusPatch.png)
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
@@ -94,10 +117,13 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 - Seleccionar el método _DELETE_ de nuestro panel y dar click en el botón _SEND_
   ![Alt text](Delete.png)
   Como se puede ver en la siguiente imagen.
-- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método DELETE
+- La información fué eliminada, todos los recursos fueron eliminados.
+  _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y eliminarlo con nuestro método _DELETE_
   ![Alt text](StatusDelete.png)
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+
+_Conclusión:_ El uso de la API Postamn, nos ayuda a facilitar el uso de métodos que queramos usar en nuestros recursos, se pueden utilizar otros servicios que nos generan los mismos resultados que Postman, lo importante es saber como funcionan y se desenvuelven las peticiones HTTP.
 
 _Bibliografía:_
 
