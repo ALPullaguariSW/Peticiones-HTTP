@@ -22,6 +22,13 @@ Dentro de la presente tarea se tomaran estos métodos y serán implementados con
 
 Para un mayor sustento haremos uso de una API ficticia proporcionada por [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/) y haciendo uso de su guía lo implementaremos mediante Postman y su extension de VS CODE ![Alt text](<postman vscode.jpg>)
 
+Los métodos a ser implementados seran los siguientes:
+|GET|Obtenga información de un recurso|
+|POST|Cree un nuevo recurso.|
+|PUT|Actualice completamente un recurso existente.|
+|PATCH|Actualice parcialmente un recurso existente|
+|DELETE|Elimine un recurso existente.|
+
 _Bibliografía:_
 
 - Métodos de petición HTTP - HTTP | MDN. (2023, 24 julio). MDN Web Docs. _[Métodos HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)_
