@@ -49,9 +49,13 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 
 #### Método POST
 
-- Seleccionar el método _POST_ de nuestro panel y dar click en el botón _SEND_
+- Seleccionar el método _POST_ de nuestro panel 
+- Seleccionar la opción de Body, la opción raw y escoger el formato JSON,  procedemos a escribir nuestro elemento en JSON
+''
+- Dar click en el botón _SEND_
   ![Alt text](Post.png)
   Como se puede ver en la siguiente imagen.
+  
 - La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método POST
   ![Alt text](StatusPost.png)
 
@@ -60,17 +64,17 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 #### Método PUT
 
 - Seleccionar el método _PUT_ de nuestro panel y dar click en el botón _SEND_
-  ![Alt text](PUT.png)
+  ![Alt text](Put.png)
   Como se puede ver en la siguiente imagen.
 - La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PUT
-  ![Alt text](StatusGet.png)
+  ![Alt text](StatusPut.png)
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
 
 #### Método PATCH
 
 - Seleccionar el método _PATCH_ de nuestro panel y dar click en el botón _SEND_
-  ![Alt text](PATCH.png)
+  ![Alt text](Patch.png)
   Como se puede ver en la siguiente imagen.
 - La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PATCH
   ![Alt text](StatusPatch.png)
@@ -80,10 +84,10 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 #### Método DELETE
 
 - Seleccionar el método _DELETE_ de nuestro panel y dar click en el botón _SEND_
-  ![Alt text](DELETE.png)
+  ![Alt text](Delete.png)
   Como se puede ver en la siguiente imagen.
 - La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método DELETE
-  ![Alt text](StatusGet.png)
+  ![Alt text](StatusDelete.png)
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
 
