@@ -123,8 +123,10 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 
 _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
 
-_Conclusión:_ El uso de la API Postamn, nos ayuda a facilitar el uso de métodos que queramos usar en nuestros recursos, se pueden utilizar otros servicios que nos generan los mismos resultados que Postman, lo importante es saber como funcionan y se desenvuelven las peticiones HTTP.
+### _Conclusión:_
 
-_Bibliografía:_
+El uso de la API Postamn, nos ayuda a facilitar el uso de métodos que queramos usar en nuestros recursos, se pueden utilizar otros servicios que nos generan los mismos resultados que Postman, lo importante es saber como funcionan y se desenvuelven las peticiones HTTP.
+
+### _Bibliografía:_
 
 - Métodos de petición HTTP - HTTP | MDN. (2023, 24 julio). MDN Web Docs. _[Métodos HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)_
