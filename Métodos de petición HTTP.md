@@ -51,12 +51,12 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 
 - Seleccionar el método _POST_ de nuestro panel
 - Seleccionar la opción de Body, la opción raw y escoger el formato JSON, procedemos a escribir nuestro elemento en JSON
-  '{
-  "userId":1,
-  "id":101,
-  "title":"Método Post",
-  "body":"Hello World"
-  }'
+  `{
+"userId":1,
+"id":101,
+"title":"Método Post",
+"body":"Hello World"
+}`
 - Dar click en el botón _SEND_
   ![Alt text](Post.png)
   Como se puede ver en la siguiente imagen.
