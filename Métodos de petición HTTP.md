@@ -20,7 +20,7 @@ Dentro de la presente tarea se tomaran estos métodos y serán implementados con
 - _TRACE:_ El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
 - _PATCH:_ El método PATCH es utilizado para aplicar modificaciones parciales a un recurso.
 
-Para un mayor sustento haremos uso de una API ficticia proporcionada por [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/)
+Para un mayor sustento haremos uso de una API ficticia proporcionada por [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/) y haciendo uso de su guía lo implementaremos mediante Postman y su extension de VS CODE (/postman vscode.jpg)
 
 _Bibliografía:_
 
