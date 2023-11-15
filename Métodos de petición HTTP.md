@@ -49,13 +49,17 @@ _Análisis:_ Como podemos observar dentro del Status de nuestra petición nos ar
 
 #### Método POST
 
-- Seleccionar el método _POST_ de nuestro panel 
-- Seleccionar la opción de Body, la opción raw y escoger el formato JSON,  procedemos a escribir nuestro elemento en JSON
-''
+- Seleccionar el método _POST_ de nuestro panel
+- Seleccionar la opción de Body, la opción raw y escoger el formato JSON, procedemos a escribir nuestro elemento en JSON
+  '{
+  "userId":1,
+  "id":101,
+  "title":"Método Post",
+  "body":"Hello World"
+  }'
 - Dar click en el botón _SEND_
   ![Alt text](Post.png)
   Como se puede ver en la siguiente imagen.
-  
 - La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método POST
   ![Alt text](StatusPost.png)
 
