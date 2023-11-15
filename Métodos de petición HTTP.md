@@ -23,13 +23,69 @@ Dentro de la presente tarea se tomaran estos métodos y serán implementados con
 Para un mayor sustento haremos uso de una API ficticia proporcionada por [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/) y haciendo uso de su guía lo implementaremos mediante Postman y su extension de VS CODE ![Alt text](<postman vscode.jpg>)
 
 Los métodos a ser implementados seran los siguientes:
-| Método | Descripción |
-|:------------- |:---------------:|
-|GET|Obtenga información de un recurso|
-|POST|Cree un nuevo recurso.|
-|PUT|Actualice completamente un recurso existente.|
-|PATCH|Actualice parcialmente un recurso existente|
-|DELETE|Elimine un recurso existente.|
+
+| _Método_ |                 _Descripción_                 |
+| :------- | :-------------------------------------------: |
+| GET      |       Obtenga información de un recurso       |
+| POST     |            Cree un nuevo recurso.             |
+| PUT      | Actualice completamente un recurso existente. |
+| PATCH    |  Actualice parcialmente un recurso existente  |
+| DELETE   |         Elimine un recurso existente.         |
+
+Siguiendo la guía proporciona por JSONPlaceholder y el uso de POSTMAN se detallan los resultados a continuación:
+
+1. Dentro de la extensión de Postman para VS Code, debemos crear dentro de nuestro Workspace un _New HTTP Request_
+2. En la nueva ventana procedemos a ingresar nuestro [link](https://jsonplaceholder.typicode.com/posts) de la API ficticia para poder solicitar nuestros métodos.
+
+#### Método GET
+
+- Seleccionar el método _GET_ de nuestro panel y dar click en el botón _SEND_
+  ![Alt text](GET.png)
+  Como se puede ver en la siguiente imagen.
+- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método GET
+  ![Alt text](StatusGet.png)
+
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+
+#### Método POST
+
+- Seleccionar el método _POST_ de nuestro panel y dar click en el botón _SEND_
+  ![Alt text](Post.png)
+  Como se puede ver en la siguiente imagen.
+- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método POST
+  ![Alt text](StatusPost.png)
+
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+
+#### Método PUT
+
+- Seleccionar el método _PUT_ de nuestro panel y dar click en el botón _SEND_
+  ![Alt text](PUT.png)
+  Como se puede ver en la siguiente imagen.
+- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PUT
+  ![Alt text](StatusGet.png)
+
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+
+#### Método PATCH
+
+- Seleccionar el método _PATCH_ de nuestro panel y dar click en el botón _SEND_
+  ![Alt text](PATCH.png)
+  Como se puede ver en la siguiente imagen.
+- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método PATCH
+  ![Alt text](StatusPatch.png)
+
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
+
+#### Método DELETE
+
+- Seleccionar el método _DELETE_ de nuestro panel y dar click en el botón _SEND_
+  ![Alt text](DELETE.png)
+  Como se puede ver en la siguiente imagen.
+- La información obtenida es mostrada en formato _Json_ y se obtiene todos los elementos. _Nota:_ Podemos especificar si deseamos solo un elemento de la Api y obtenerlo con nuestro método DELETE
+  ![Alt text](StatusGet.png)
+
+_Análisis:_ Como podemos observar dentro del Status de nuestra petición nos aroja el código _200:_ _La solicitud ha tenido éxito. La información devuelta con la respuesta depende del método utilizado en la solicitud._
 
 _Bibliografía:_
 
