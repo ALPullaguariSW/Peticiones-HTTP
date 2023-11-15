@@ -13,11 +13,11 @@ Instrucciones:
 2. Realización de Peticiones:
 
 - Para cada uno de los siguientes tipos de peticiones, realice solicitudes a la API elegida utilizando herramientas como Postman, Thunder Client o Rapid API Client en Visual Studio Code.
-  [x] GET: Obtenga información de un recurso.
-  [x] POST: Cree un nuevo recurso.
-  [x] PUT: Actualice completamente un recurso existente.
-  [x] PATCH: Actualice parcialmente un recurso existente.
-  [x] DELETE: Elimine un recurso existente.
+- [x] GET: Obtenga información de un recurso.
+- [x] POST: Cree un nuevo recurso.
+- [x] PUT: Actualice completamente un recurso existente.
+- [x] PATCH: Actualice parcialmente un recurso existente.
+- [x] DELETE: Elimine un recurso existente.
 
 3. Documentación de Peticiones:
 
