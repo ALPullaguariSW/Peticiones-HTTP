@@ -2,7 +2,7 @@
 
 ## Practica de peticiones HTTP mediante API ficticia
 
-# Objetivo: Familiarizarse con los diferentes tipos de peticiones HTTP (GET, POST,PUT, PATCH, DELETE) mediante la práctica en una API ficticia.
+### Objetivo: Familiarizarse con los diferentes tipos de peticiones HTTP (GET, POST,PUT, PATCH, DELETE) mediante la práctica en una API ficticia.
 
 Instrucciones:
 
